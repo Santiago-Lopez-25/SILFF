@@ -42,8 +42,8 @@ the print statment allows you to print values to the terminal, every expretion (
 the read statment allows you to read from the terminal, and store the value. also, the read statment takes an string to print
 in the terminal and take the input
 ```
-var a = read("enter a number: ");
-print(a); // it shows the value of a
+var a = read "enter a number: ";
+print a; // it shows the value of a
 ```
 ### 6. the `nothing` operator
 The `nothing` operator does exactly nothing, and you can use it for... right, nothing
@@ -61,3 +61,14 @@ so you can imagine the performance.
 Also, i don't used sofisticaded algorithms or similar. for the lexer i used the regex motor from the std of python,
 and has a bad performance (not the regex motor, my lexer implementation).
 I used recursive descend parser, and finally i walk my AST to run the code
+
+## Executing
+Because this intepreters is written in python, you can run a simply executable. for running a program 
+with this interpreter, you need to follow tis steps:
+
+* open the terminal and run the following command to copy the project: `$ git clone git/github.com/Santiago-Lopez-25/SILFF`
+  this will copy the repo into a directory called SILFF
+* next, navigate to the directory with: `$ cd SILFF`
+* after that, in the same directory, create a file and write something like ``print "hello world";`, save it
+* and the final step: run the following: `$ python main.py [file]`, replacing `[file]`with the name
+  of the file you just created

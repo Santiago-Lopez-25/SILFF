@@ -4,6 +4,8 @@ class Tktype:
     Var = "Var"
     If = "If"
     Else = "Else"
+    Print = "Print"
+    Read = "Read"
 
     String = "String"
     Lbrace = "Lbrace"
@@ -25,6 +27,7 @@ class Tktype:
     Star = "Star"
     Slash = "Slash"
     Semicolon = "Semicolon"
+    Nothing = "Nothing"
     Eof = "Eof"
 
 class Tk:
@@ -64,6 +67,10 @@ class Lexer:
             '(?P<val>var )':Tktype.Var,
             '(?P<val>if )': Tktype.If,
             '(?P<val>else )': Tktype.Else,
+            '(?P<val>print )': Tktype.Print,
+            '(?P<val>read )':Tktype.Read,
+            '(?P<val>nothing)':Tktype.Nothing,
+            '(?P<val>\\+)': Tktype.Plus,
             '(?P<val>-)':Tktype.Minus,
             '(?P<val>\\*)':Tktype.Star,
             '(?P<val>/)':Tktype.Slash,
