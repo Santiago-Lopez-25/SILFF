@@ -1,1 +1,6 @@
-var a = nothing ;
+var a = 5;
+if a < 2 {
+    print "Hola";
+} else {
+    print "hello";
+}
