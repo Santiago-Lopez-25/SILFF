@@ -66,9 +66,9 @@ I used recursive descend parser, and finally i walk my AST to run the code
 Because this intepreters is written in python, you can run a simply executable. for running a program 
 with this interpreter, you need to follow tis steps:
 
-* open the terminal and run the following command to copy the project: `$ git clone git/github.com/Santiago-Lopez-25/SILFF`
+* open the terminal and run the following command to copy the project: `$ git clone https://github.com/Santiago-Lopez-25/SILFF.git`
   this will copy the repo into a directory called SILFF
 * next, navigate to the directory with: `$ cd SILFF`
-* after that, in the same directory, create a file and write something like ``print "hello world";`, save it
+* after that, in the same directory, create a file and write something like `print "hello world";`, save it
 * and the final step: run the following: `$ python main.py [file]`, replacing `[file]`with the name
   of the file you just created
