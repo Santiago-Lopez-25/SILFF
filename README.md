@@ -59,7 +59,7 @@ if a < 10 {
 As an ast-walk interpreter, this is not the fastest thing ever. and is writed in pyhton, an interpreted language,
 so you can imagine the performance. 
 Also, i don't used sofisticaded algorithms or similar. for the lexer i used the regex motor from the std of python,
-and has a bad performance (not the regex motor, my lexer implementation).
+and has a bad performance (not the regex engine, my lexer implementation).
 I used recursive descend parser, and finally i walk my AST to run the code
 
 ## Executing
