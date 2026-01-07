@@ -63,7 +63,7 @@ and has a bad performance (not the regex engine, my lexer implementation).
 I used recursive descend parser, and finally i walk my AST to run the code
 
 ## Executing
-Because this intepreters is written in python, you can run a simply executable. for running a program 
+Because this intepreter is written in python, you can't run a simply executable. for running a program 
 with this interpreter, you need to follow tis steps:
 
 * open the terminal and run the following command to copy the project: `$ git clone https://github.com/Santiago-Lopez-25/SILFF.git`
